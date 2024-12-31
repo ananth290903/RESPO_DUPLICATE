@@ -1,5 +1,155 @@
 
-  @media screen and (min-width:1100px) and (min-height:750px)
+
+
+
+@media only screen and (max-width: 410px) and (max-height:800px) 
+{
+/* 384 729*/
+
+
+        *
+        {
+          margin:0px;
+          padding:0px;
+        }
+
+        body
+        {
+          background-color:black;
+        }
+        
+        .description
+        {
+          color:white;
+          width:37vw;
+          height:15vh;
+          margin-top:5vh;
+          margin-right:1vw;
+          /*border:1px solid white; */
+
+          display:flex;
+          flex-direction:column;
+          align-items:flex-start;
+        }
+
+        .description p
+        {
+          font-size:20px;
+        }
+        
+        .main
+        {
+          display:flex;
+          width:348px;
+          height:728px;
+          margin-left:9vw;
+          border:1px solid white;
+          flex-direction:column;
+          align-items:center;
+          gap:5vh;
+        }
+        
+        .butt
+        {
+          background-color:red;
+          width:180px;
+          height:15vh;
+          box-sizing:border-box;
+          border-radius:0.8vw;
+          margin-top:-12vh;
+        }
+        
+        .butt p
+        {
+          color:white;
+          font-size:27px;
+          text-align:center;
+          margin-top:0%;
+          font-family:'Sans-serif','Helvetica';
+          font-weight:600;
+        }
+        
+        .Options
+        {
+          color:white;
+          display:flex;
+          gap:2vw;
+          font-size:100%;
+          margin-left:-1vw;
+          margin-top:-2vh;
+        }
+        
+        
+        .bigp
+        {
+          color:white;
+          text-align:center;
+          width:540px;
+          height:140px;
+          /*border:1px solid white;*/
+          margin-top:16px;
+        }
+        
+        
+        .bigp p
+        {
+          font-size:20px
+        }
+        
+        .home
+        {
+          margin-top:11vh;
+        }
+        
+        
+          
+            
+        
+        
+        
+        
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media screen and (min-width:1100px) and (min-height:900px)
     
 {
      
@@ -91,116 +241,6 @@ body
 
 
 
-
-
-
-                            @media only screen and (max-width: 390px) and (max-height:739px) 
-                            {
-  /* 384 729*/
-
-
-                                    *
-                                    {
-                                      margin:0px;
-                                      padding:0px;
-                                    }
-
-                                    body
-                                    {
-                                      background-color:black;
-                                    }
-                                    
-                                    .description
-                                    {
-                                      color:white;
-                                      width:37vw;
-                                      height:15vh;
-                                      margin-top:5vh;
-                                      margin-right:1vw;
-                                      /*border:1px solid white; */
-
-                                      display:flex;
-                                      flex-direction:column;
-                                      align-items:flex-start;
-                                    }
-                          
-                                    .description p
-                                    {
-                                      font-size:20px;
-                                    }
-                                    
-                                    .main
-                                    {
-                                      display:flex;
-                                      width:348px;
-                                      height:728px;
-                                      margin-left:9vw;
-                                      border:1px solid white;
-                                      flex-direction:column;
-                                      align-items:center;
-                                      gap:5vh;
-                                    }
-                                    
-                                    .butt
-                                    {
-                                      background-color:red;
-                                      width:180px;
-                                      height:15vh;
-                                      box-sizing:border-box;
-                                      border-radius:0.8vw;
-                                      margin-top:-12vh;
-                                    }
-                                    
-                                    .butt p
-                                    {
-                                      color:white;
-                                      font-size:27px;
-                                      text-align:center;
-                                      margin-top:0%;
-                                      font-family:'Sans-serif','Helvetica';
-                                      font-weight:600;
-                                    }
-                                    
-                                    .Options
-                                    {
-                                      color:white;
-                                      display:flex;
-                                      gap:2vw;
-                                      font-size:100%;
-                                      margin-left:-1vw;
-                                      margin-top:-2vh;
-                                    }
-                                    
-                                    
-                                    .bigp
-                                    {
-                                      color:white;
-                                      text-align:center;
-                                      width:540px;
-                                      height:140px;
-                                      /*border:1px solid white;*/
-                                      margin-top:16px;
-                                    }
-                                    
-                                    
-                                    .bigp p
-                                    {
-                                      font-size:20px
-                                    }
-                                    
-                                    .home
-                                    {
-                                      margin-top:11vh;
-                                    }
-                                    
-                                    
-                                      
-                                        
-                                    
-                                    
-                                    
-                                    
-}
 
 
 
