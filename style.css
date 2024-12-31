@@ -1,0 +1,162 @@
+*
+{
+  margin:0px;
+  padding:0px;
+}
+
+body
+{
+  background-color:black;
+}
+
+
+.description
+{
+  color:white;
+  font-size:2vh;
+  box-sizing:border-box;
+  width:40vw;
+  height:28vh;
+  margin-top:3vh;
+  margin-left:24vw;
+  /*
+  border:1px solid white; */
+
+}
+
+.description h1
+{
+  margin:0;
+}
+
+
+
+.main
+{
+  display:flex;
+  width:50vw;
+  height:150vh;
+  margin-left:25vw;
+  /*border:1px solid white; */
+  flex-direction:column;
+  align-items:center;
+  gap:10vh;
+}
+
+.butt
+{
+  background-color:red;
+  width:20vh;
+  height:6vh;
+  box-sizing:border-box;
+  border-radius:0.8vw;
+}
+
+.butt p
+{
+  color:white;
+  font-size:25px;
+  text-align:center;
+  margin-top:3%;
+  font-family:'Sans-serif','Helvetica';
+  font-weight:600;
+}
+
+.Options
+{
+  color:white;
+  display:flex;
+  gap:2vw;
+  font-size:180%;
+  margin-left:-1vw;
+  margin-top:-2vh;
+}
+
+.bigp
+{
+  color:white;
+  text-align:center;
+  font-size:30px;
+  font-weight:600;
+  margin-top:-21vh;
+  /*border:1px solid white; 
+  border:1px solid white; */
+}
+
+
+@media only screen and max(width:1080px)
+{
+   .description
+{
+  color:white;
+  font-size:2vh;
+  box-sizing:border-box;
+  width:40vw;
+  height:28vh;
+  margin-top:3vh;
+  margin-left:18vw;
+  /*
+  border:1px solid white; */
+
+}
+
+.description h1
+{
+  margin:0;
+}
+
+
+
+.main
+{
+  display:flex;
+  width:50vw;
+  height:150vh;
+  margin-left:25vw;
+  /*border:1px solid white; */
+  flex-direction:column;
+  align-items:center;
+  gap:10vh;
+}
+
+.butt
+{
+  background-color:red;
+  width:4vh;
+  height:6vh;
+  box-sizing:border-box;
+  border-radius:0.8vw;
+}
+
+.butt p
+{
+  color:white;
+  font-size:25px;
+  text-align:center;
+  margin-top:3%;
+  font-family:'Sans-serif','Helvetica';
+  font-weight:600;
+}
+
+.Options
+{
+  color:white;
+  display:flex;
+  gap:2vw;
+  font-size:180%;
+  margin-left:-1vw;
+  margin-top:-2vh;
+}
+
+    .bigp
+    {
+        color:white;
+        text-align:center;
+        font-size:30px;
+        font-weight:600;
+        margin-top:-21vh;
+        /*border:1px solid white; 
+       border:1px solid white; */
+    }
+
+}
